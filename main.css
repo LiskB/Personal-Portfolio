@@ -53,6 +53,9 @@ nav ul li a {
     font-weight: bold;
     font-family: 'Mukta', sans-serif;
 }
+nav ul li a:hover {
+    color: #7a7a7a;
+}
 
 .horiz-line {
     margin: 0% 13%;
@@ -111,13 +114,27 @@ nav ul li a {
 }
 .skills-content{
     margin: 8% 0;
+    text-align: center;
 }
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    text-align: left;
 }
 .skill-type {
     padding: 30px 30px;
+}
+.skill-button {
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+    padding: 4px 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+.skill-button:hover {
+    color: #7a7a7a;
+    border-color: #7a7a7a;
 }
 
 .experience-page {
