@@ -280,17 +280,18 @@ nav ul li a:hover {
 /* Meant for mobile screens, as they do not have an accurate pointing device (coarse) */
 @media (pointer: coarse){
     h2 {
-        font-size: 15px;
+        font-size: 18px;
         letter-spacing: 1.5px;
     }
     h3 {
-        font-size: 11px;
+        font-size: 13px;
         letter-spacing: 1px;
+        line-height: 1.1em;
     }
     p {
         letter-spacing: 1px;
         font-size: 9px;
-        line-height: 0.8em;
+        line-height: 1.2em;
     }
     
     nav {
@@ -318,8 +319,8 @@ nav ul li a:hover {
         padding: 17px 0px;
     }
     .skill-button {
-        font-size: 40px;
-        padding: 4px 10px;
+        font-size: 12px;
+        padding: 6px 14px;
         margin-top: 10px;
     }
     
