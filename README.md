@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-Published at [https://brandenlisk.ca/](https://brandenlisk.ca/).
+Published at [brandenlisk.ca](https://brandenlisk.ca/).
 
 Personal portfolio and resume website for myself. Designed for the Chrome browser, although also tested for compatibility in Safari, Firefox, Microsoft Edge, and IE 7+, as well as some mobile browsers.
 
@@ -16,7 +16,7 @@ To view the code, clone or download this repository, and open it in an editor of
 git clone https://github.com/LiskB/Personal-Portfolio.git
 ```
 
-To see the full website visit [https://brandenlisk.ca/](https://brandenlisk.ca/).
+To see the full website visit [brandenlisk.ca](https://brandenlisk.ca/).
 
 ## Built With
 
