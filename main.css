@@ -126,6 +126,17 @@ nav ul li a:hover {
 .skill-type {
     padding: 30px 30px;
 }
+.skill-type h3{
+    text-align: center;
+}
+.skill-type ul li {
+    text-align: center;
+    list-style-type: none;
+}
+.skill-type ul li p {
+    text-decoration: none;
+    font-size: 16px;
+}
 .skill-button {
     font-size: 16px;
     font-family: 'Mukta', sans-serif;
