@@ -320,6 +320,7 @@ nav ul li a:hover {
 }
 
 /* Meant for mobile screens, as they do not have an accurate pointing device (coarse) */
+/*
 @media (pointer: coarse){
     h2 {
         font-size: 18px;
@@ -403,3 +404,4 @@ nav ul li a:hover {
         width: 100px;
     }
 }
+*/
