@@ -13,165 +13,187 @@
     </script>
     
     <meta charset="utf-8">
-    <title>Branden Lisk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Branden Lisk">
-    <link rel="icon" href="Resources/favicon.png">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+    <link rel="icon" href="Resources/favicon.png">
+    
+    <title>Branden Lisk</title>
+
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills and Abilities</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#achievements">Achievements</a></li>
-            <li><a href="#connect">Connect</a></li>
-        </ul>
-    </nav>
-    
-    <div id="welcome" class="welcome-page">
-        <h1>HELLO, I'M BRANDEN LISK</h1>
-    </div>
-    
-    <div id="about" class="about-page">
-        <div class="about-content">
-            <h2>ABOUT</h2>
-            <img src="Resources/profile.jpg" class="profile-img">
-            <p>Hello! I'm Branden, a current 1st year Computer Engineering Undergraduate Student at the University of Waterloo. For as long as I can remember, I have been interested in computers and technology, and that's why I have decided to pursue that passion through a fulfulling career. <br><br>Since my first experience of learning the basics of Python in 7th grade and building projects for school science fairs, I was hooked, and from that point on I knew I wanted to become an engineer.</p>
-        </div>
-    </div>
-    
-    <div id="skills" class="skills-page">
-        <div class="skills-content">
-            <h2>SKILLS AND ABILITIES</h2>
-            <div class="skills-grid">
-                <div class="skill-type">
-                    <h3>PROGRAMMING (AND MARKUP) LANGUAGES</h3>
-                    <ul>
-                        <li><p>Java</p></li>
-                        <li><p>Python</p></li>
-                        <li><p>C++</p></li>
-                        <li><p>Javascript</p></li>
-                        <li><p>HTML</p></li>
-                        <li><p>CSS</p></li>
-                    </ul>
-                </div>
-                <div class="skill-type">
-                    <h3>TOOLS</h3>
-                    <ul>
-                        <li><p>Git Version Control</p></li>
-                        <li><p>Github Collaboration</p></li>
-                    </ul>
+    <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">About</a>
+                    <a class="nav-item nav-link" href="#">Skills and Abilties</a>
+                    <a class="nav-item nav-link" href="#">Experience</a>
+                    <a class="nav-item nav-link" href="#">Achievements</a>
+                    <a class="nav-item nav-link" href="#">Connect</a>
                 </div>
             </div>
+        </nav>
+        
+        <div class="row welcome-page py-5">
+            <div class="col-12 py-5 my-5"></div>
+            <div class="col-12 text-center py-5 my-5">
+                <h1>HELLO, I'M BRANDEN LISK</h1>
+            </div>
+            <div class="col-12 py-5 my-5"></div>
         </div>
-    </div>
-    
-    <div class="horiz-line"><hr/></div>
-    
-    <div id="projects" class="projects-page">
-        <div class="projects-content">
-            <h2>PROJECTS</h2>
-            <div class="projects-grid">
-                <div class="project-type">
-                    <h3>PERSONAL PORTFOLIO WEBPAGE</h3>
-                    <p>HTML, CSS - Made a personal portfolio website showcasing experiences and projects (this website).</p>
-                </div>
-                <div class="project-type">
-                    <h3>NEW TAB EXTENSION</h3>
-                    <p>HTML, CSS, Javascript - Made a Google Chrome extension which replaces the new tab page with a random background image and other tools.</p>
-                </div>
-                <div class="project-type">
-                    <h3>ARTIFICIAL NEURAL NETWORK</h3>
-                    <p>Python - Created a neural network that predicts if a customer will leave a bank based on listed independent variables.</p>
-                </div>
-                <div class="project-type">
-                    <h3>FLIGHT TRACKER</h3>
-                    <p>Java - Created a GUI application that allows the user to add and manage flights, and simulates them graphically.</p>
-                </div>
-                <div class="project-type">
-                    <h3>STOCK MONITOR</h3>
-                    <p>Python - Created a command line program that allows the user to view stock data, search stocks, and track stock prices.</p>
-                </div>
-                <div class="project-type">
-                    <h3>DIRECTORY SORTER</h3>
-                    <p>Python - Created a GUI program that allows the user to organize the files within a chosen directory.</p>
-                </div>
+        <div class="row justify-content-center py-5 about-page">
+            <div class="col-12 text-center">
+                <h2>ABOUT</h2>
+            </div>
+            <div class="col-2">
+                <img src="Resources/profile.jpg" class="img-fluid">
+            </div>
+            <div class="col-4">
+                <p>Hello! I'm Branden, a current 1st year Computer Engineering Undergraduate Student at the University of Waterloo. For as long as I can remember, I have been interested in computers and technology, and that's why I have decided to pursue that passion through a fulfulling career. <br><br>Since my first experience of learning the basics of Python in 7th grade and building projects for school science fairs, I was hooked, and from that point on I knew I wanted to become an engineer.</p>
             </div>
         </div>
-    </div>
-    
-    <div class="horiz-line"><hr/></div>
-    
-    <div id="experience" class="experience-page">
-        <div class="experience-content">
-            <h2>EXPERIENCE</h2>
-            <div class="experience-type">
-                <img src="Resources/Large_Primary_Logo_-_Colour_RCDSB.png">
-                <div class="experience-description">
-                    <h3>ROBOTICS MENTOR - RENFREW COUNTY DISTRICT SCHOOL BOARD | JULY 2018</h3>
-                    <p>Employed for the summer booster program for SK, and Grades 1 and 2 at Champlain Discovery Public School. Responsibilities included using robotics to support mathematics and literacy learning by structuring daily activities for the students to participate in, helping the students with the activities, and assisting teachers in becoming more familiar with robotics as a teaching resource.</p>
-                </div>
+        
+        <div class="row justify-content-center py-5">
+            <div class="col-12 text-center mb-3">
+                <h2>SKILLS AND ABILITIES</h2>
             </div>
-            <div class="experience-type">
-                <img src="Resources/Shoppers-Drug-Mart-Logo-Vector-Image.jpg">
-                <div class="experience-description">
-                    <h3>MERCHANDISER - SHOPPERS DRUG MART | JULY 2016 - AUGUST 2018</h3>
-                    <p>Responsibilities included helping customers locate products and solve other issues, replenish and organize front store and backroom product, create and display signage, communicate with other staff and work as a team to solve problems, as well as cleaning responsibilities.</p>
-                </div>
+            <div class="col-3 text-center skill-type">
+                <h3>PROGRAMMING (AND MARKUP) LANGUAGES</h3>
+                <ul>
+                    <li><p>Java</p></li>
+                    <li><p>Python</p></li>
+                    <li><p>C++</p></li>
+                    <li><p>Javascript</p></li>
+                    <li><p>HTML</p></li>
+                    <li><p>CSS</p></li>
+                </ul>
             </div>
-        </div>
-    </div>
-    
-    <div class="horiz-line"><hr/></div>
-    
-    <div id="achievements" class="achievements-page">
-        <div class="achievements-content">
-            <h2>ACHIEVEMENTS</h2>
-            <div class="achievements-grid">
-                <div class="achievement-type">
-                    <h3>EUCLID MATH CONTEST</h3>
-                    <p>Participated in the Waterloo Grade 12 Euclid Math Contest: Ranked 2225 out of 22695 (90th percentile).</p>
-                </div>
-                <div class="achievement-type">
-                    <h3 >SENIOR CANADIAN COMPUTING COMPETITION</h3>
-                    <p>Participated in the Waterloo Senior Canadian Computing Competition: Ranked 300 out of 2144 (86th percentile).</p>
-                </div>
-                <div class="achievement-type">
-                    <h3>UNIVERSITY AWARDS</h3>
-                    <p>Received the Univeristy of Waterloo President's Scholarship of Distinction.</p>
-                </div>
-                <div class="achievement-type">
-                    <h3>GRADUATION AWARDS</h3>
-                    <p>Received multiple graduation awards, some of which include the Wendorf Science and Engineering Award, and the Governor General's Award of Merit for highest senior academic standing.</p>
-                </div>
+            <div class="col-3 text-center skill-type">
+                <h3>TOOLS</h3>
+                <ul>
+                    <li><p>Git Version Control</p></li>
+                    <li><p>Github Collaboration</p></li>
+                </ul>
             </div>
         </div>
-    </div>
-    
-    <div class="horiz-line"><hr/></div>
-    
-    <div id="connect" class="contact-page">
-        <div class="contact-content">
-            <h2>CONNECT</h2>
-            <div class="contact-grid">
-                <a href="https://www.facebook.com/brandenlisk" target="_blank" class="contact-type">
-                    <img src="Resources/icons/iconmonstr-facebook-1-240.png" alt="Facebook link">
-                </a>
-                <a href="https://www.instagram.com/brandenlisk/" target="_blank" class="contact-type">
-                    <img src="Resources/icons/iconmonstr-instagram-11-240.png" alt="Instagram link">
-                </a>
-                <a href="mailto:balisk@edu.uwaterloo.ca" class="contact-type">
-                    <img src="Resources/icons/iconmonstr-email-2-240.png" alt="Email link">
-                </a>
-                <a href="https://github.com/LiskB/" target="_blank" id="profile-link" class="contact-type">
-                    <img src="Resources/icons/iconmonstr-github-1-240.png" alt="Github link">
+        
+        <div class="row justify-content-center py-5">
+            <div class="col-12 text-center mb-3">
+                <h2>PROJECTS</h2>
+            </div>
+            <div class="col-4 p-2">
+                <h3>PERSONAL PORTFOLIO WEBPAGE</h3>
+                <p>HTML, CSS - Made a personal portfolio website showcasing experiences and projects (this website).</p>
+            </div>
+            <div class="col-4 p-2">
+                <h3>NEW TAB EXTENSION</h3>
+                <p>HTML, CSS, Javascript - Made a Google Chrome extension which replaces the new tab page with a random background image and other tools.</p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-4 p-2">
+                <h3>ARTIFICIAL NEURAL NETWORK</h3>
+                <p>Python - Created a neural network that predicts if a customer will leave a bank based on listed independent variables.</p>
+            </div>
+            <div class="col-4 p-2">
+                <h3>FLIGHT TRACKER</h3>
+                <p>Java - Created a GUI application that allows the user to add and manage flights, and simulates them graphically.</p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-4 p-2">
+                <h3>STOCK MONITOR</h3>
+                <p>Python - Created a command line program that allows the user to view stock data, search stocks, and track stock prices.</p>
+            </div>
+            <div class="col-4 p-2">
+                <h3>DIRECTORY SORTER</h3>
+                <p>Python - Created a GUI program that allows the user to organize the files within a chosen directory.</p>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center py-5">
+            <div class="col-12 text-center mb-3">
+                <h2>EXPERIENCE</h2>
+            </div>
+            <div class="col-3">
+                <img src="Resources/Large_Primary_Logo_-_Colour_RCDSB.png" class="img-fluid">
+            </div>
+            <div class="col-5">
+                <h3>ROBOTICS MENTOR - RENFREW COUNTY DISTRICT SCHOOL BOARD | JULY 2018</h3>
+                <p>Employed for the summer booster program for SK, and Grades 1 and 2 at Champlain Discovery Public School. Responsibilities included using robotics to support mathematics and literacy learning by structuring daily activities for the students to participate in, helping the students with the activities, and assisting teachers in becoming more familiar with robotics as a teaching resource.</p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-3">
+                <img src="Resources/Shoppers-Drug-Mart-Logo-Vector-Image.jpg" class="img-fluid">
+            </div>
+            <div class="col-5">
+                <h3>MERCHANDISER - SHOPPERS DRUG MART | JULY 2016 - AUGUST 2018</h3>
+                <p>Responsibilities included helping customers locate products and solve other issues, replenish and organize front store and backroom product, create and display signage, communicate with other staff and work as a team to solve problems, as well as cleaning responsibilities.</p>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center py-5">
+            <div class="col-12 text-center mb-3">
+                <h2>ACHIEVEMENTS</h2>
+            </div>
+            <div class="col-4">
+                <h3>EUCLID MATH CONTEST</h3>
+                <p>Participated in the Waterloo Grade 12 Euclid Math Contest: Ranked 2225 out of 22695 (90th percentile).</p>
+            </div>
+            <div class="col-4">
+                <h3 >SENIOR CANADIAN COMPUTING COMPETITION</h3>
+                <p>Participated in the Waterloo Senior Canadian Computing Competition: Ranked 300 out of 2144 (86th percentile).</p>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-4">
+                <h3>UNIVERSITY AWARDS</h3>
+                <p>Received the Univeristy of Waterloo President's Scholarship of Distinction.</p>
+            </div>
+            <div class="col-4">
+                <h3>GRADUATION AWARDS</h3>
+                <p>Received multiple graduation awards, some of which include the Wendorf Science and Engineering Award, and the Governor General's Award of Merit for highest senior academic standing.</p>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center py-5">
+            <div class="col-12 text-center mb-3">
+                <h2>CONNECT</h2>
+            </div>
+            <div class="col-1 px-4 mx-5">
+                <a href="https://www.facebook.com/brandenlisk" target="_blank">
+                    <img src="Resources/icons/iconmonstr-facebook-1-240.png" alt="Facebook link" class="img-fluid">
                 </a>
             </div>
+            <div class="col-1 px-4 mx-5">
+                <a href="https://www.instagram.com/brandenlisk/" target="_blank">
+                    <img src="Resources/icons/iconmonstr-instagram-11-240.png" alt="Instagram link" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-1 px-4 mx-5">
+                <a href="mailto:balisk@edu.uwaterloo.ca">
+                    <img src="Resources/icons/iconmonstr-email-2-240.png" alt="Email link" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-1 px-4 mx-5">
+                <a href="https://github.com/LiskB/" target="_blank" id="profile-link">
+                    <img src="Resources/icons/iconmonstr-github-1-240.png" alt="Github link" class="img-fluid">
+                </a>
+            </div>
         </div>
+        
     </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
