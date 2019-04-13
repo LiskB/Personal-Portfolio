@@ -9,9 +9,15 @@ html, body {
 
 h1 {
     font-family: 'Mukta', sans-serif;
-    font-size: 62px;
-    color: grey;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
     letter-spacing: 15px;
+}
+@media (min-width: 768px) {
+    h1 {
+        font-size: 62px;
+    }
 }
 h2 {
     font-family: 'Mukta', sans-serif;
@@ -36,6 +42,7 @@ p {
     background-image: url("https://www.fasken.com/-/media/29b8b6a371344d40a392350b395691d6.ashx");
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -45,16 +52,16 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.about-content h2{
-    color: grey;
+.about-page h2{
+    color: white;
 }
-.about-content p{
-    color: grey;
+.about-page p{
+    color: white;
 }
 .skill-type ul li {
     list-style: none;
-}
-.skill-type ul li p {
-    text-decoration: none;
     font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 2em;
 }
